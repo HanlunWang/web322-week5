@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      </div>
+
+      <div class="navbar-center flex">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost sm:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a>Link</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2 bg-base-100">
+                  <li><a>Link 1</a></li>
+                  <li><a>Link 2</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Welcome Home</h1>
+    <p>...</p>
+    <p><a href="/about">About the Company</a></p>
+    <button class="btn btn-primary">Button</button>
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 mb-4">
+        <div class="border-2">Title</div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="border-2">01</div>
+        <div class="border-2">02</div>
+        <div class="border-2">03</div>
+        <div class="border-2">04</div>
+        <div class="border-2">05</div>
+      </div>
+    </div>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure>
+        <img class="w-full" src="https://fakeimg.pl/375x375?text=[+SHOES+]" alt="Shoes" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
